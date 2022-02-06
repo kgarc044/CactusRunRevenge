@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         grounded = Physics2D.IsTouchingLayers(playerCollider, whatisGround);
-        playerRB.velocity = new Vector2(movementSpeed, playerRB.velocity.y);
+        //playerRB.velocity = new Vector2(movementSpeed, playerRB.velocity.y);
 
         if(Input.GetKeyDown(KeyCode.Space))
         {
